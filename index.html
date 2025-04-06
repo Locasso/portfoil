@@ -41,7 +41,7 @@
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(350px, 5fr));
       gap: 1rem;
     }
 
@@ -49,8 +49,13 @@
     .gallery img {
       width: 100%;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 10);
     }
+
+    div.desc {
+  padding: 15px;
+  text-align: center;
+  }
   </style>
 </head>
 <body>
@@ -68,7 +73,10 @@
     <h2>Gallery</h2>
     <div class="gallery">
       <video controls src="Profane_UI_Showcase.mp4"></video>
-      <video controls src="paperdoll.mp4"></video>
+      <video controls width="100%" autoplay muted loop playsinline>
+        <source src="paperdoll.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
       <img src="MarkRecall.gif" alt="Mark Recall UI">
       <img src="uibuilder.gif" alt="UI Builder in Unity">
       <img src="skins.gif" alt="Skin Shop UI">
