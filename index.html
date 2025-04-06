@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Tech UI Designer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6c260;
+      color: #333;
+    }
+
+    header {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery video,
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm a Technical UI Designer</h1>
+    <p>I specialize in UI prototyping and implementation for games using Unity UI Toolkit. Currently working on Profane, a high-magic, low-fantasy MMORPG.</p>
+  </header>
+
+  <section>
+    <h2>Profane - MMORPG</h2>
+    <p>As a Technical UI Designer at Insane, I lead the UI prototyping and implementation efforts for Profane, our flagship MMORPG title. I work closely with multidisciplinary teams to ensure the user interface is both functional and visually compelling. We use Unity's UI Toolkit system to build scalable and modular UI that adapts to evolving gameplay systems and player feedback.</p>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <video controls src="Profane_UI_Showcase.mp4"></video>
+      <video controls src="paperdoll.mp4"></video>
+      <img src="MarkRecall.gif" alt="Mark Recall UI">
+      <img src="uibuilder.gif" alt="UI Builder in Unity">
+      <img src="skins.gif" alt="Skin Shop UI">
+    </div>
+  </section>
+</body>
+</html>
