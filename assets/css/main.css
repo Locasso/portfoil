@@ -702,10 +702,13 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
+  text-shadow: 1px 1px 10px #212121f4;
 }
 
 .hero p {
   margin: 5px 0 0 0;
+  text-shadow: 1px 1px 10px #212121f4;
+  color: #dc9e02;
   font-size: 26px;
 }
 
